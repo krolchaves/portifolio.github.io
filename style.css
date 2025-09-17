@@ -5,7 +5,8 @@ body {
   margin: 0;
 }
 header.p-3 {
-  background-color: #4b367c !important; /* Lilás escuro */
+  background-color: #4b367c; /* Lilás escuro */
+  padding: 1rem !important; /* reforçar padding caso Bootstrap sobrescreva */
 }
 header h1 {
   color: #ffffff;
@@ -13,13 +14,14 @@ header h1 {
   font-weight: 700;
 }
 nav a.nav-link {
-  color: #c7b3e2 !important; /* Lilás claro */
+  color: #c7b3e2; /* Lilás claro */
   font-weight: 600;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 nav a.nav-link:hover,
 nav a.nav-link:focus {
-  color: #ffffff !important; /* Branco no hover/focus */
+  color: #ffffff; /* Branco no hover/focus */
   text-decoration: underline;
 }
 .btn-primary {
@@ -43,6 +45,7 @@ h2 {
 a {
   color: #7d5ba6; /* Lilás médio */
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 a:hover,
 a:focus {
@@ -57,7 +60,7 @@ section {
   margin-bottom: 2rem;
 }
 footer.bg-light {
-  background-color: #c7b3e2 !important; /* Lilás claro */
+  background-color: #c7b3e2; /* Lilás claro */
   color: #4b367c; /* Lilás escuro */
   padding: 1rem 0;
   border-top: 1px solid #7d5ba6; /* Lilás médio */
