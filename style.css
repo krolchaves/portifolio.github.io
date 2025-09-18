@@ -9,7 +9,7 @@ body {
   background-color: #4b367c !important;
 }
 .navbar-brand {
-  color: #ffffff !important;
+  color: #ffffff;
   font-weight: 700;
 }
 .navbar-brand:hover,
@@ -78,6 +78,7 @@ footer.bg-light {
   display: inline-block;
   border: none;
 }
+
 
 
 
